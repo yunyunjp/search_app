@@ -1,7 +1,7 @@
 Category.create(name:'メンズ')
 Category.create(name:'レディース')
 Category.create(name:'キッズ')
-Product.create(name:'シャツ', size:'S', status:'未使用', price:'1800', category_id:'1')
+Product.create!(name:'シャツ', size:'S', status:'未使用', price:'1800', category_id:'1')
 Product.create(name:'シャツ', size:'M', status:'未使用', price:'2000', category_id:'2')
 Product.create(name:'シャツ', size:'L', status:'やや傷や汚れあり', price:'1000', category_id:'3')
 Product.create(name:'シャツ', size:'S', status:'やや傷や汚れあり', price:'1500', category_id:'1')
